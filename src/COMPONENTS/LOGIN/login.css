@@ -1,0 +1,33 @@
+.logincard{
+    margin-top: 10px !important;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.darkcolor{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.3);
+}
+.bgimglogin{
+    position: relative;
+    width: 100%;
+    height: 100vb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login-title{
+    font-weight: 600;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-bottom: 10px;
+    border: 1px solid #3b3939;
+    text-align: center;
+    font-size: 30px;
+}
+.login-space{
+    margin-top: 60px;
+}

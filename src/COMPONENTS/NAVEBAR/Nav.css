@@ -1,0 +1,21 @@
+.navbar-brand{
+    font-family: MyFont;
+    font-size: 50px;
+}
+.nav-transparent{
+    background: transparent;
+}
+.nav-transparent a{
+    color: white;
+}
+.nav-transparent .logo{
+    color: white;
+}
+.navbar-bg{
+    transition:  all .3s ease-in-out;
+    background-color: white;
+}
+.navbar-bg a{
+    color: black;
+}
+

@@ -1,0 +1,279 @@
+.productnavspace{
+  margin-top: 50px;
+}
+
+.products-category-right{
+  padding-bottom: 20px;
+}
+
+.menbgimg {
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./img/men2.jpg');
+  background-attachment: fixed !important;
+}
+
+.womenbgimg {
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./img/women.jpg');
+  background-attachment: fixed !important;
+}
+
+.Accessoriesbgimg {
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./img/accessories.jpg');
+  background-attachment: fixed !important;
+}
+.kidsbgimg{
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./img/k1.jpg');
+  background-attachment: fixed !important;
+}
+
+@media only screen and (max-width: 1160px) {
+  .menbgimg {
+    height: 500px;
+  }
+
+  .womenbgimg {
+    height: 500px;
+  }
+
+  .Accessoriesbgimg {
+    height: 500px;
+  }
+  .kidsbgimg {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .menbgimg {
+    height: 400px;
+  }
+
+  .womenbgimg {
+    height: 400px;
+  }
+
+  .Accessoriesbgimg {
+    height: 400px;
+  }
+  .kidsbgimg {
+    height: 400px;
+  }
+}
+
+.heddinggg {
+  font-family: "Roboto Condensed", sans-serif;
+  padding-top: 20%;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 560px) {
+  .heddinggg {
+    padding-top: 40%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .heddinggg {
+    font-size: 50px;
+  }
+}
+
+
+
+
+/* card */
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+/* card */
+
+
+.product-card {
+  margin-top: 100px;
+}
+
+.dress-card-img-top {
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+
+.dress-card-body {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 0 0 7px 7px;
+}
+
+.dress-card-title {
+  line-height: 0.5rem;
+}
+
+.dress-card-crossed {
+  text-decoration: line-through;
+}
+
+.dress-card-price {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.dress-card-off {
+  color: #cc2828;
+}
+
+.dress-card-para {
+  margin-bottom: 0.2rem;
+  font-size: 1.0rem;
+  margin-bottom: 0rem;
+}
+
+.dress-card {
+  border-radius: 14px;
+}
+
+
+
+.card-button {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 9px;
+}
+
+.card-button a {
+  text-decoration: none;
+}
+
+.card-button-inner {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.bag-button {
+  background: #000000;
+  color: white;
+}
+
+.bag-button :hover {
+  background: #e299b9;
+}
+
+.wish-button {
+  border: 1px solid rgb(0, 0, 0);
+  color: #000000;
+}
+.remove-button {
+  border: 1px solid rgb(255, 0, 0);
+  color: #ff0000;
+}
+
+
+
+
+
+/* view Product */
+.productspaceeee{
+  margin-top: 10px;
+}
+
+.contview {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contview > div {
+  flex: 1 1 calc(992px / 2);
+}
+
+.imgview {
+  border: 1px solid #ffffff;
+  height: 100vh;
+  overflow-y: auto; /* Enable vertical scrolling for the .imgview div */
+}
+
+.imgview img {
+  width: 100%;
+  height: auto; /* Adjust height property to maintain image aspect ratio */
+  object-fit: cover;
+}
+
+.textcontentttt {
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Ensure the text content appears above the .imgview */
+  background-color: #ffffff; /* Optional: Add a background color to distinguish it */
+}
+
+.heddingggg123 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #414141;
+  font-size: 3rem;
+  font-weight: 10; /* Note: Adjusted font-weight property */
+  margin-bottom: 3rem;
+}
+
+/* button */
+
+.sizehedding{
+  margin-top: 20px;
+}
+
+.size-button {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 9px;
+}
+
+.size-button-inner {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectt-button {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  width: 80px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s; /* Added transition for smooth color change */
+}
+
+.selectt-button:hover,
+.selectt-button.hovered {
+  background: #303030;
+  color: #ffffff;
+}
+
+.size-button .selectt-button {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+
+
+
+
+

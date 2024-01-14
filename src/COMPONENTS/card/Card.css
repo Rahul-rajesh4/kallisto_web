@@ -1,0 +1,85 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+  /* card */
+
+  .dress-card-img-top {
+    width:100%;
+    border-radius: 7px 7px 0 0;
+  }
+  
+  .dress-card-body {
+    padding:1rem;
+    background: #fff;
+    border-radius: 0 0 7px 7px;
+  }
+  
+  .dress-card-title {
+    line-height: 0.5rem;
+  }
+  
+  .dress-card-crossed {
+    text-decoration: line-through;
+  }
+  
+  .dress-card-price {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .dress-card-off {
+    color: #cc2828;
+  }
+  
+  .dress-card-para {
+    margin-bottom: 0.2rem;
+    font-size: 1.0rem;
+    margin-bottom: 0rem;
+  }
+  
+  .dress-card {
+    border-radius: 14px;
+  }
+  
+  .dress-card-heart {
+    font-size: 1em;
+    color: #b60000;
+    margin: 4.5px;
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    
+  }
+  
+  .card-button {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 9px;
+  }
+  .card-button a {
+    text-decoration: none;
+  }
+  
+  .card-button-inner {
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  .bag-button {
+    background: #000000;
+    color: white;
+  }
+  
+  .bag-button :hover{
+    background: #e299b9;
+  }
+  
+  .wish-button {
+    border: 1px solid rgb(0, 0, 0);
+    color: #000000;
+  }
+  
+  
